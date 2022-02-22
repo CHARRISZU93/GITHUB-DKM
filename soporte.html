@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="media/a-different-kind-of-mkt.png">
+    <link rel="stylesheet" href="style.css">
+    <title>DKM - SOPORTE</title>
+</head>
+
+<body class="grid-content">
+    <header>
+        <nav>
+            <ul>
+                <li><a class="hover" href="nosotros.html">NOSOTROS</a></li>
+                <li><a class="hover" href="servicios.html">SERVICIOS</a></LI>
+                <li><a href="index.html"><img src="media/a-different-kind-of-mkt.png" alt="MKT" idth="70px"
+                            height="70px"></a></li>
+                <li><a class="hover" href="pricing.html">PRICING</a></li>
+                <li><a class="hover" href="soporte.html">SOPORTE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="informacion">
+        <div>
+            <h1 class="titulos">OFFICES</h1>
+            <h2 class="subtitulos">Bogotá, Colombia</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.879527091831!2d-74.07445168577843!3d4.615570543676327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f999cbe0ec80d%3A0x89b3ae542471918c!2sTorres%20Atrio!5e0!3m2!1ses!2sco!4v1644193918040!5m2!1ses!2sco"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br>
+            <h2 class="subtitulos">Santiago, Chile</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.3528547969395!2d-70.6055440851275!3d-33.41404390303012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf4183afe81b%3A0x7dabbcb5a6f7d52b!2sAv.%20El%20Bosque%20Nte.%20500%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses!2sco!4v1644196714012!5m2!1ses!2sco"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br>
+        </div>
+        <div id="soporte">
+            <form class="FORMULARIO">
+                <legend class="subtitulos">CONTACTENOS</legend>
+                <label for="fnombre">NOMBRE:</label>
+                <input class="FORMULARIO_CAMPO" type="text" id="fnombre" required placeholder="Nombre">
+                <br>
+                <label for="femail">EMAIL:</label>
+                <input class="FORMULARIO_CAMPO" type="email" id="femail" required placeholder="Correo Electronico">
+                <br>
+                <label for="ftipo">Tipo de Solicitud</label>
+                <select class="FORMULARIO_CAMPO" required id="ftipo">
+                    <option></option>
+                    <option>Reporte de error</option>
+                    <option>Reactivacion suscripción</option>
+                    <option>Cambio de plan DKM</option>
+                    <option>Cancelacion suscripción</option>
+                    <option>Otro</option>
+                </select>
+                <br>
+                <label for="fmensaje">MENSAJE:</label>
+                <textarea class="FORMULARIO_CAMPO" id="fmensaje" required
+                    placeholder="Describe tu solicitud"></textarea>
+                <br>
+                <label>ACEPTA TERM Y COND PARA EL USO DE LOS DATOS PERSONALES:</label>
+                <input class="FORMULARIO_CAMPO" type="radio" id="fsi" name="COND" value="si" checked>
+                <label for="fsi">Si</label>
+                <input class="FORMULARIO_CAMPO" type="radio" id="fno" value="no" name="COND">
+                <label for="fno">No</label>
+                <br>
+                <input class="BOTON" type="submit">
+            </form>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div>
+            <section class="footer_menu">
+                <h1 class="footer_titulos_menu">DKM</h1>
+                <article class="footer_cont_menu"><a href="soporte.html">Registro</a></article>
+                <article class="footer_cont_menu"><a href="pricing.html">Pricing</a></article>
+            </section>
+            <section class="footer_menu">
+                <h1 class="footer_titulos_menu">SOPORTE</h1>
+                <article class="footer_cont_menu"><a href="soporte.html">Contáctenos</a></article>
+                <article class="footer_cont_menu"><a href="soporte.html">Ayuda FAQ</a></article>
+            </section>
+            <section class="footer_menu">
+                <h1 class="footer_titulos_menu">COMPAÑIA</h1>
+                <article class="footer_cont_menu"><a href="nosotros.html">Acerca de Nosotros</a></article>
+                <article class="footer_cont_menu"><a href="carrito.html">Boletines</a></article>
+            </section>
+        </div>
+        <div class="FORMULARIO">
+            <p>UNETE A NUESTRA COMUNIDAD</p>
+            <form>
+                <label for="femail">EMAIL:</label>
+                <input class="FORMULARIO_CAMPO" type="email" id="femail" required placeholder="Correo Electrónico">
+                <br>
+                <input class="BOTON" type="submit" value="SUSCRIBIRME">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
