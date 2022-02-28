@@ -428,7 +428,13 @@ footer{
         padding: 5px;
         background-color: transparent;
         font-weight: bold;
-    }    
+    }  
+    
+    nav ul img{
+        width: 95px; 
+        height: 95px;
+        margin-top: -10px;
+    }
 }
 
 .grid-content{
