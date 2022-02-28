@@ -35,7 +35,7 @@ html, body {
     left: 0;
     width: auto;
     height: auto;
-    opacity: 50%; 
+    opacity: 80%; 
     object-fit: cover;
     object-position: center; 
     z-index: -1;
@@ -300,6 +300,135 @@ footer{
     #section_inicio .linea1{
         display: none;
     }
+
+    #VIDEOHOME{
+        display: none;
+    }
+
+    .grid-index{
+        background-image: url(media/DKM_SCR-INDEX.png); 
+        background-size: cover;
+        object-position: center; 
+        position: fixed;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .grid-index{
+        background-image: url(media/DKM_SCR-INDEX.png); 
+        background-size: cover;        
+        object-position: center; 
+    }
+
+    #VIDEOHOME{
+        display: none;
+    }
+
+    nav ul{
+        font-size: 75px; 
+        color: black; 
+        font-family: FUENTE1;  
+        border-image: round;
+        position: relative; 
+        justify-content: space-evenly;
+        margin-top: 50px;
+        display: flex;
+    }   
+    
+    #section_inicio{
+        position: relative;
+        text-align: right;
+        font-size: 240px; 
+        font-family: FUENTE1; 
+        color: black; 
+        margin-right: 30px;
+        grid-area: main;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .linea1 {
+        padding-right: 850px;
+        height: 20px;
+        color: #ffec38;
+        font-size: 300px;
+        text-align: right;
+        vertical-align: middle;
+        width: auto;
+    }
+    
+    .linea2 {
+        padding-right: 550px;
+        height: 20px;
+        color: #ffec38;
+        font-size: 300px;
+        text-align: right;
+        vertical-align: middle;
+        width: auto;
+        position: relative;
+    }
+    
+    .linea3 {
+        padding-right: 330px;
+        height: 20px;
+        color: #ffec38;
+        font-size: 300px;
+        text-align: right;
+        vertical-align: middle;
+        width: auto;
+    }
+
+    .footer_titulos_menu{
+        color: black;
+        font-family: FUENTE1; 
+        padding-bottom: 10px; 
+        padding-top: 10px; 
+        font-size: 70px;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 15px;
+        padding-right: 50px;
+    }
+    
+    .footer_cont_menu{
+        color: black; 
+        font-family: FUENTE2; 
+        padding-top: 10px; 
+        text-align: justify;
+        font-size: 50px;
+    }
+
+    .FORMULARIO{
+        font-family: FUENTE1; 
+        font-size: 60px; 
+        color: black; 
+        padding-top: 10px;
+        font-weight: bold;
+        width: fit-content;
+        width: -moz-fit-content
+    }
+
+    .FORMULARIO_CAMPO{
+        font-family: FUENTE2; 
+        height: auto;
+        font-size: 50px; 
+        border-color: black;
+        background-color: transparent;
+        border-style: none;
+        width: auto;
+    }
+
+    .BOTON{
+        font-size: FUENTE1;
+        font-size: 40px;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        padding: 5px;
+        background-color: transparent;
+        font-weight: bold;
+    }    
 }
 
 .grid-content{
